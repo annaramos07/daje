@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Freelance Site</title>
+<title>DAJE Freelance</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="#" rel="icon">
+<link href="img/IMG-20190504-WA0038 (2).jpg" rel="icon">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -31,12 +31,14 @@
 			  <div class="collapse navbar-collapse" id="navbar">
 				<ul class="navbar-nav ml-auto">
 				  <li class="nav-item active">
-					<a class="nav-link" href="#discover">ABOUT <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="#discover">HOME <span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#hello">ABOUT</a>
 				  </li>
 				  <li class="nav-item">
 					<a class="nav-link" href="#hello">SERVICES</a>
 				  </li>
-				  
 					<li class="nav-item">
 					<a class="nav-link btn-app" href="#formulario">CONTACT US</a>
 				  </li>
@@ -49,14 +51,16 @@
 		</div>
 	</header>
 		
+	<section id="our">
+		<div class="container">
+		<h1>OUR SERVICES</h1>
+		</div>
+	</section>
 	
-
+	
 	<section id="services">
 		<div class="container">
 		
-			
-			<h1>OUR SERVICES</h1>
-			
 			<div class="row">
 				
 			
@@ -138,47 +142,49 @@
 	
 	
 <section id="formulario">
-	<div class="container">
-	<div class="row">
-		<article class="col-md-6 col-sm-6 col-xs-12 join">
-		<h2>CONTACT US</h2>
-		<p>We will be glad to work with you! Give us your info and we will contact you soon. </p>
-		
-		</article>
-		<div class="form-group col-md-6 col-sm-6 col-xs-12">
+		<div class="container">
+			<div class="row">
 			
-			<form action="https://gmail.us20.list-manage.com/subscribe/post" method="POST">
-    		<input type="hidden" name="u" value="62f0aefc39a4a3a15b4cfb11f">
-			<input type="hidden" name="id" value="f04279a85c">
-
-				<div class="row">
-			<div class="form-group col-md-6 col-sm-12">
-						<input type="text" name="MERGE1" id="MERGE1" class="form-control" placeholder="NAME" required>
-					</div>
-			<div class="form-group col-md-6 col-sm-12">
+			<article class="col-md-4 col-sm-6 col-xs-12">
+					<h2 class="titulo">Contacto</h2>
+					<h6> Si te gustaría saber un poco más sobre los servicios y habilidades que se ofrecen puedes llenar el siguiente formulario y pronto te contactaremos.</h6>
+				</article>
+			
+				<article class="col-md-8 col-sm-6 col-xs-12">
+					
+					<form  action="https://gmail.us20.list-manage.com/subscribe?u=62f0aefc39a4a3a15b4cfb11f&id=1d60122b83" method="POST"> 
+						<input type="hidden" name="u" value="62f0aefc39a4a3a15b4cfb11f">
+						<input type="hidden" name="id" value="1d60122b83">
 						
-						<input type="text" name="MERGE0" id="MERGE0" class="form-control"  placeholder="E-MAIL" required>
+				<div class="row">
+					<div class="form-group col-md-6 col-sm-6 col-xs-12">
+						<input type="text" name="MERGE1" id="MERGE1" class="form-control"  maxlength="40" placeholder="Nombre" required>
+					</div>
+					<div class="form-group col-md-6 col-sm-6 col-xs-12">
+						<select class="form-control" name="MERGE2" id="MERGE2">
+							<option value="A">Motivo</option>
+							<option value="B">Consulta</option>
+							<option value="C">Propuesta de Proyecto</option>
+							
+						</select>
 					</div>
 				</div>
+						
+						<div class="row">
+					<div class="form-group col-md-6 col-sm-6 col-xs-12">
+						<input type="email" name="MERGE0" id="MERGE0" class="form-control" required maxlength="40" placeholder="E-mail">
+					</div>
+
+					<div class="form-group col-md-6 col-sm-6 col-xs-12">
+						<button type="submit" class="btn btn btn-secondary btn-rectangulo">Enviar</button>
+					</div>
+				</div>
+					</form>
+				</article>
 			
-				
-				<button type="submit" class="btn btn-light formss">SUBMIT</button>
-				
-				
-			</form>
-		
-		
-		
-		
 		</div>
-		
-	</div>
-	
-	</div>
-
-
-</section>	
-		
+		</div>
+	</section>	
 	
 	
 	
