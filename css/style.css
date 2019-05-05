@@ -149,9 +149,18 @@ footer .fab{
 	padding-bottom: 5%;
 }
 
+#services h1{
+	padding-bottom: 1%;
+	font-weight: bolder;
+	text-decoration:underline;
+	
+	
+}
+
 #our{
 	color: #FFFFFF;
 	background-color: #20BFD0;
+	
 
 
 }
