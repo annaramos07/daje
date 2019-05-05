@@ -113,15 +113,11 @@ footer{
 }
 
 footer .fab{
-	width: 70px;
-	height: 45px;
-	line-height: 40px;
-	text-align: center;
-	color:#272727;
+	width: 60px;
+	height: 30px;
+	color:#20BFD0;
 	font-size: 25px;
-	
 }
-
 
 .btn-rectangulo{
 	color:#000000;
@@ -132,4 +128,30 @@ footer .fab{
 .btn-rectangulo:hover{
 	background-color: #FEF281;
 	color: #000;
+}
+
+#services span{
+	color: #20BFD0;
+	font-weight:bolder;
+}
+
+#services li{
+	font-size: 20px;
+}
+
+#services img{
+	width: 70%;
+	margin-left: 7%;
+}
+
+#services{
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+
+#our{
+	color: #FFFFFF;
+	background-color: #20BFD0;
+
+
 }
